@@ -7,11 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title><?= $data['page_tag'] ?></title>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="<?= base_url() ?>/Assets/vendor/bootstrap4.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?= media() ?>vendor/bootstrap4.3/css/bootstrap.min.css">
     <link href="assets/vendor/fonts/circular-std/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="<?= base_url() ?>/Assets/libs/css/style.css">
-    <link rel="stylesheet" href="<?= base_url() ?>/Assets/libs/css/main.css">
-    <link rel="stylesheet" href="<?= base_url() ?>/Assets/vendor/fonts/fontawesome/css/fontawesome-all.css">
+    <link rel="stylesheet" href="<?= media() ?>libs/css/style.css">
+    <link rel="stylesheet" href="<?= media() ?>libs/css/main.css">
+    <link rel="stylesheet" href="<?= media() ?>vendor/fonts/fontawesome/css/fontawesome-all.css">
     <style>
         html,
         body {
