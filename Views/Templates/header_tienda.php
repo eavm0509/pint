@@ -112,7 +112,7 @@ if (isset($_SESSION['arrCarrito']) and count($_SESSION['arrCarrito']) > 0) {
 							Help & FAQs
 						</a>
 
-						<a href="/tienda/dashboard" class="flex-c-m trans-04 p-lr-25">
+						<a href="/dashboard" class="flex-c-m trans-04 p-lr-25">
 							Mi Cuenta
 						</a>
 
