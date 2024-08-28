@@ -37,10 +37,10 @@
         <div class="card ">
             <div id="divLoadingLogin">
                 <div>
-                    <img src="<?= base_url() ?>/Assets/images/loader.svg" alt="Loading">
+                    <img src="<?= media() ?>images/loader.svg" alt="Loading">
                 </div>
             </div>
-            <div class="card-header text-center"><a href="<?= base_url()?>"><img class="logo-img" src="assets/images/logo.png" alt="logo"></a><span class="splash-description">Iniciar Sesion</span></div>
+            <div class="card-header text-center"><a href="<?= base_url()?>"><img class="logo-img" src="<?= media() ?>images/logo.png" alt="logo"></a><span class="splash-description">Iniciar Sesion</span></div>
             <div class="card-body">
 
                 <form class="login-form" name="formLogin" id="formLogin">
