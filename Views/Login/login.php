@@ -8,7 +8,7 @@
     <title><?= $data['page_tag'] ?></title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="<?= media() ?>vendor/bootstrap4.3/css/bootstrap.min.css">
-    <link href="assets/vendor/fonts/circular-std/style.css" rel="stylesheet">
+    <link href="<?= media() ?>vendor/fonts/circular-std/style.css" rel="stylesheet">
     <link rel="stylesheet" href="<?= media() ?>libs/css/style.css">
     <link rel="stylesheet" href="<?= media() ?>libs/css/main.css">
     <link rel="stylesheet" href="<?= media() ?>vendor/fonts/fontawesome/css/fontawesome-all.css">
@@ -67,10 +67,10 @@
     <!-- end login page  -->
     <!-- ============================================================== -->
     <!-- Optional JavaScript -->
-    <script src="<?= base_url() ?>/Assets/vendor/jquery/jquery-3.3.1.min.js"></script>
-    <script src="<?= base_url() ?>/Assets/vendor/bootstrap4.3/js/bootstrap.min.js"></script>
-    <script src="<?= base_url() ?>/Assets/libs/js/sweetalert.min.js"></script>
-    <script src="<?= base_url() ?>/Assets/libs/js/functions_login.js"> </script>
+    <script src="<?= base_url() ?>vendor/jquery/jquery-3.3.1.min.js"></script>
+    <script src="<?= base_url() ?>vendor/bootstrap4.3/js/bootstrap.min.js"></script>
+    <script src="<?= base_url() ?>libs/js/sweetalert.min.js"></script>
+    <script src="<?= base_url() ?>libs/js/functions_login.js"> </script>
 
     <script>
         const base_url = "<?= base_url(); ?>"
