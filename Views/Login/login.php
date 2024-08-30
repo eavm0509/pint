@@ -73,7 +73,7 @@
     <script src="<?= media() ?>libs/js/functions_login.js"> </script>
 
     <script>
-        const base_url = "<?= media(); ?>"
+        const base_url = "<?= base_url(); ?>"
     </script>
 </body>
 
