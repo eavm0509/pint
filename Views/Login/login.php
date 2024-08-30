@@ -57,7 +57,7 @@
             <div class="card-footer bg-white p-0 text-center">
 
                 <div class="card-footer-item card-footer-item-bordered">
-                    <a href="<?php base_url() ?>/forgetpassword" class="footer-link">Olvidaste tu contraseña?</a>
+                    <a href="<?php media() ?>/forgetpassword" class="footer-link">Olvidaste tu contraseña?</a>
                 </div>
             </div>
         </div>
@@ -67,13 +67,13 @@
     <!-- end login page  -->
     <!-- ============================================================== -->
     <!-- Optional JavaScript -->
-    <script src="<?= base_url() ?>vendor/jquery/jquery-3.3.1.min.js"></script>
-    <script src="<?= base_url() ?>vendor/bootstrap4.3/js/bootstrap.min.js"></script>
-    <script src="<?= base_url() ?>libs/js/sweetalert.min.js"></script>
-    <script src="<?= base_url() ?>libs/js/functions_login.js"> </script>
+    <script src="<?= media() ?>vendor/jquery/jquery-3.3.1.min.js"></script>
+    <script src="<?= media() ?>vendor/bootstrap4.3/js/bootstrap.min.js"></script>
+    <script src="<?= media() ?>libs/js/sweetalert.min.js"></script>
+    <script src="<?= media() ?>libs/js/functions_login.js"> </script>
 
     <script>
-        const base_url = "<?= base_url(); ?>"
+        const base_url = "<?= media(); ?>"
     </script>
 </body>
 
