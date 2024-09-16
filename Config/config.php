@@ -5,7 +5,7 @@ const BASE_URL = "http://localhost/tienda";
 date_default_timezone_set('America/Lima');
 
 const DB_HOST = "18.223.190.227";
-const DB_NAME = "tienda_db2";
+const DB_NAME = "tienda_db";
 const DB_USER = "root";
 const DB_PASSWORD = "";
 const DB_CHARSET = "charset=utf8";
