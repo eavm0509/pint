@@ -6,7 +6,7 @@ date_default_timezone_set('America/Lima');
 
 const DB_HOST = "18.223.190.227";
 const DB_NAME = "db_tienda2";
-const DB_USER = "root";
+const DB_USER = "eav";
 const DB_PASSWORD = "Kike2001*";
 const DB_CHARSET = "charset=utf8";
 
